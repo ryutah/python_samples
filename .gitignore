@@ -154,3 +154,4 @@ pyvenv.cfg
 pip-selfcheck.json
 
 # End of https://www.gitignore.io/api/vim,macos,python,virtualenv
+.ipynb_checkpoints/

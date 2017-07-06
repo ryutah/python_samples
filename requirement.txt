@@ -28,6 +28,7 @@ nbconvert==5.2.1          # via jupyter, notebook
 nbformat==4.3.0           # via ipywidgets, nbconvert, notebook
 notebook==5.0.0           # via jupyter, widgetsnbextension
 numpy==1.13.0
+pandas==0.20.2
 pandocfilters==1.4.1      # via nbconvert
 pexpect==4.2.1            # via ipython
 pickleshare==0.7.4        # via ipython
@@ -35,8 +36,8 @@ prompt-toolkit==1.0.14    # via ipython, jupyter-console
 ptyprocess==0.5.2         # via pexpect, terminado
 pygments==2.2.0           # via ipython, jupyter-console, nbconvert, qtconsole
 pyparsing==2.2.0          # via matplotlib
-python-dateutil==2.6.0    # via jupyter-client, matplotlib
-pytz==2017.2              # via matplotlib
+python-dateutil==2.6.0    # via jupyter-client, matplotlib, pandas
+pytz==2017.2              # via matplotlib, pandas
 pyzmq==16.0.2             # via jupyter-client
 qtconsole==4.3.0          # via jupyter
 simplegeneric==0.8.1      # via ipython
